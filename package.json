@@ -1,0 +1,16 @@
+{
+  "name": "proz-projectscoursetalentcloud",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev04": "node \"01 - Lógica Imperativa/Desenvolvimento04.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

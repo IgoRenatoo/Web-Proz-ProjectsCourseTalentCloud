@@ -4,7 +4,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev04": "node \"01 - Lógica Imperativa/Desenvolvimento04.js\""
+    "dev04": "node \"01 - Lógica Imperativa/Desenvolvimento04.js\"",
+    "dev05": "node \"01 - Lógica Imperativa/Desenvolvimento05.js\"",
+    "dev06": "node \"01 - Lógica Imperativa/Desenvolvimento06.js\""
   },
   "keywords": [],
   "author": "",

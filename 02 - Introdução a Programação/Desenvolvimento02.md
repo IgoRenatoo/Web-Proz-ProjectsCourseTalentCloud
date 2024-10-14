@@ -15,7 +15,8 @@ D: Veículos com quatro rodas ou mais e que acomodam mais de oito pessoas; E: Ve
 
 ## 🛠️ Resolução
 
-<pre>def category(rodas, peso_bruto, pessoas):
+<pre>
+def category(rodas, peso_bruto, pessoas):
   if rodas == 2 or rodas == 3:
     return "Categoria A: Veículos com duas ou três rodas."
   elif rodas == 4:
@@ -36,4 +37,5 @@ rodas = int(input("Digite a quantidade de rodas do veículo: "))
 peso_bruto = float(input("Digite o peso bruto em kg do veículo: "))
 pessoas = int(input("Digite a quantidade de pessoas no veículo: "))
 
-print(category)</pre>
+print(category)
+</pre>

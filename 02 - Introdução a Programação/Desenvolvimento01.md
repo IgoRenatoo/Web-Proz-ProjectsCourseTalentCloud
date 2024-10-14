@@ -16,7 +16,8 @@ Cada exercício da tabela em anexo tem declaração de variáveis e, na sequênc
 
 ## 🛠️ Resolução
 
-<pre>1 - <b><span style="color: green">True</span></b>.
+<pre>
+1 - <b><span style="color: green">True</span></b>.
 
 2 - <b><span style="color: red">False</span></b>.
 
@@ -24,4 +25,5 @@ Cada exercício da tabela em anexo tem declaração de variáveis e, na sequênc
 
 4 - <b><span style="color: red">False</span></b>.
 
-5 - <b><span style="color: red">False</span></b>.</pre>
+5 - <b><span style="color: red">False</span></b>.
+</pre>

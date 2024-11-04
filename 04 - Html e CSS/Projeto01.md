@@ -18,6 +18,16 @@ Tente ao máximo `desenvolver seu projeto de forma autônoma`, sem o uso de inte
 
 ## ⏳ Pendências
 
+- [ ] Integração com um banco de dados para persistência dos dados.
+
+- [ ] Função de reservar retornando multiplas mensagens quando todas as salas estão `indisponíveis`
+
 ## 💡 Insights adquiridos
+
+* Uso de class construtura em Python.
+
+* Melhor entendimento da estrutura de repetição.
+
+* Uso `all` e `not` em loop's.
 
 ## 🛠️ Resolução

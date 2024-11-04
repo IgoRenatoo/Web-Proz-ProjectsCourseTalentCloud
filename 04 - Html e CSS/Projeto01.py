@@ -49,6 +49,15 @@ def technature():
 
     opcao = input("\nOpção desejada: ")
 
+    # Visualizar Disponibilidade
+    if (opcao == '1'):
+      print("Disponibilidade das nossas salas: \n")
+      for i in room:
+        if i.disponivel:
+          print(f"{i.nome} está disponível. ✅")
+        else:
+          print(f"{i.nome} está indisponível. ❌")
+
 def myhome():
   print("chegou aqui também")
 

@@ -1,5 +1,6 @@
 nome = input("Informe seu nome para cadastro!");
 coworking = 'not_found'
+input_room = []
 
 def coworking():
 
@@ -57,6 +58,30 @@ def technature():
           print(f"{i.nome} está disponível. ✅")
         else:
           print(f"{i.nome} está indisponível. ❌")
+
+    #Registrar Reservas
+    elif (opcao == '2'):
+      if all(not i.disponivel for i in room):
+        print("\nAtenção! Atualmente não temos salas disponíveis!")
+        continue 
+
+      print("\nEssas são as salas disponíveis para reservas: ")
+      contador = 1
+      for i in room:
+        if i.disponivel:
+          print(f"{contador}. {i.nome} está disponível. ✅")
+          contador += 1
+        else:
+          contador += 1        
+
+      reserva = int(input("\nQual sala você deseja reservar: "))       
+
+      if ( room[reserva-1].disponivel ):
+        room[reserva-1].disponivel = False;
+        print(f"Reserva na {room[reserva-1].nome} realizada com sucesso!")
+        input_room.append(room[reserva-1].nome)
+      else:
+        print("\nAtenção! Número digitado não está disponível para reservas!")
 
 def myhome():
   print("chegou aqui também")

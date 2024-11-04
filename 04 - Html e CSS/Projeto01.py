@@ -83,6 +83,12 @@ def technature():
       else:
         print("\nAtenção! Número digitado não está disponível para reservas!")
 
+    #Visualizar Reservas
+    elif (opcao == '3'):
+      print("Suas reservas atualmente são nas salas: \n")
+      for i in input_room:
+        print(f"{i} ✅")
+
 def myhome():
   print("chegou aqui também")
 

@@ -1,4 +1,5 @@
 nome = input("Informe seu nome para cadastro!");
+coworking = 'not_found'
 
 def coworking():
 
@@ -22,7 +23,32 @@ def coworking():
       print("Opção inválida. Por favor, escolha uma opção válida.")
 
 def technature():
-  print("chegou aqui também")
+  coworking = 'TechNature'
+  class Room:
+    def __init__(self, nome, disponivel):
+      self.nome = nome
+      self.disponivel = disponivel
+  room = [
+    Room("Savana", True),
+    Room("Gatolandia", True),
+    Room("Cachorrolandia", True),
+    Room("Passarolandia", True),
+    Room("Verde e paz", True)
+  ]
+  room[1].disponivel = False;
+
+  print("\nBem vindo ao TechNature - Seu espaço de trabalho em meio à natureza!");
+  while True:
+    print("\n*** Menu de Navegação ***");
+    print("\nSelecione a opção desejada");
+    print(" 1. Visualizar disponibilidade")
+    print(" 2. Registrar Reservas")
+    print(" 3. Visualizar Reservas")
+    print(" 4. Cancelar reserva") # Feature Extra!
+    print(" 5. Voltar ao Coworking Meet")
+
+    opcao = input("\nOpção desejada: ")
+
 def myhome():
   print("chegou aqui também")
 

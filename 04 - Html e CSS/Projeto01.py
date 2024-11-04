@@ -88,7 +88,23 @@ def technature():
       print("Suas reservas atualmente são nas salas: \n")
       for i in input_room:
         print(f"{i} ✅")
+    
+    #Cancelar reservas
+    elif (opcao == '4'):
+      contador = 1
+      print("Atualmente suas reservas são: \n")
+      for i in input_room:
+        print(f"{contador}. {i}")
+        contador += 1
+      cancelamento = int(input("\nQual deseja cancelar?"))
+      for i in room:
+        if (i.nome == input_room[cancelamento-1]):
+          del input_room[cancelamento-1]
+          i.disponivel = True
 
+    #Voltar ao Menu Coworking Meet      
+    elif (opcao == '5'):
+      break
 def myhome():
   print("chegou aqui também")
 

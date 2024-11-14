@@ -29,19 +29,19 @@ Tente ao máximo `desenvolver seu projeto de forma autônoma`, sem o uso de inte
 
 <div align="left"   >
   <p> TechNature </p>
-  <img width= "400px"  height= "400px" src="./assets/images/TechNature.jpg" alt="Prévia do projeto">
+  <img width= "400px"  height= "400px" src="../assets/Projeto01/TechNature.jpg" alt="Prévia do projeto">
 </div>
 <br>
 <div align="left"   >
   <p> MyHome </p>
-  <img width= "400px"  height= "400px" src="./assets/images/MyHome.jpg" alt="Prévia do projeto">
+  <img width= "400px"  height= "400px" src="../assets/Projeto01/MyHome.jpg" alt="Prévia do projeto">
 </div>
 
 ## 📈 Fluxogramas
 
 <div align="left"   >
   <p> Croki do Projeto </p>
-  <img width= "500px"  height= "400px" src="./assets/images/Fluxograma Base.png" alt="Prévia do projeto">
+  <img width= "500px"  height= "400px" src="../assets/Projeto01/Fluxograma Base.png" alt="Prévia do projeto">
 </div>
 
 ## ⏳ Pendências

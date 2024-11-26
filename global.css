@@ -3,14 +3,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   padding: 20px;
+  max-width: 800px;
 }
 
 /* Cabeçalho */
@@ -18,25 +22,22 @@ header {
   text-align: center;
   margin-bottom: 40px;
 }
-
 header h1 {
   font-size: 2.5rem;
   color: #2c3e50;
   margin-bottom: 10px;
 }
-
 header p {
   font-size: 1.2rem;
   color: #7f8c8d;
 }
 
 /* Seção de Projetos */
-#projetos {
+.projetos {
   max-width: 800px;
   margin: 0 auto;
 }
-
-#projetos h2 {
+.projetos h2 {
   text-align: center;
   font-size: 2rem;
   color: #2980b9;
@@ -50,70 +51,34 @@ header p {
   margin: 20px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .projeto h3 {
   color: #34495e;
   margin-bottom: 10px;
   font-size: 1.5rem;
 }
-
 .projeto p {
   color: #7f8c8d;
   margin-bottom: 15px;
 }
-
 .projeto a {
   color: #2980b9;
   text-decoration: none;
   font-weight: bold;
   margin-right: 10px;
 }
-
 .projeto a:hover {
   text-decoration: underline;
 }
 
-/* Rodapé */
-footer {
-  text-align: center;
-  margin-top: 40px;
-  padding: 10px 0;
-  color: #7f8c8d;
-}
-
-footer p {
-  font-size: 0.9rem;
-  color: #95a5a6;
-}
-
-footer ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 10px;
-}
-
-footer ul li a {
-  color: #2980b9;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer ul li a:hover {
-  text-decoration: underline;
-}
 
 /* Responsividade */
 @media (max-width: 600px) {
   header h1 {
     font-size: 2rem;
-  }
-  
+  }  
   #projetos h2 {
     font-size: 1.8rem;
   }
-
   .projeto h3 {
     font-size: 1.3rem;
   }

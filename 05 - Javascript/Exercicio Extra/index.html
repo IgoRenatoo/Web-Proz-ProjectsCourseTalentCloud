@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" href="./global.css">
+</head>
+<body>
+
+  <div class="cart-item">
+    <img src="https://m.media-amazon.com/images/I/81XpG2iKTlL._SY466_.jpg" alt="Capa">
+    <h3>Dom Casmurro</h3>
+    <p>Machado de Assis</p>
+    <p id="book">Valor: R$ 11.66</p>
+    <div>
+      <button id="btnSub" onclick="subtract()">-</button>
+      <input id="qtdValue" type="text" value="1" readonly style="width: 30px; text-align: center;">
+      <button id="btnAdd" onclick="add()">+</button>
+    </div>
+  </div>
+
+  <div class="subtotal">
+    <p style="font-size: 30px;">🛒</p>
+    <p>1 itens</p>
+    <p id="total"> R$ 11.66</p>
+  </div>
+<script src="./script.js"></script>
+</body>
+</html>
